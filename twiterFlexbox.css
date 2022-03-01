@@ -1,0 +1,156 @@
+
+body, html{
+    height: 100%;
+    margin: 0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#principal{
+    display: grid;
+    grid-template-columns: 4em 35em;
+    grid-template-rows: 4em 5em 4em;
+    border: 0.05em solid rgb(216, 216, 216);
+    height: 34em;
+}
+.columnaDosFilaUno{
+    display: flex;
+    border-bottom: 0.05em solid rgb(216, 216, 216);   
+}
+.columnaDosFilaUno > div{
+    width: 50%;    
+}
+.icono{
+    width: 1em;
+}
+.iconoNube{
+    width: 1em;
+}
+.iconoTesla{
+    width: 2.5em;
+    border-radius: 50%;
+    margin-top: 0.375em;
+}
+.flecha{
+    display: flex;    
+    align-items: center;
+    padding-left: 1em;
+    border-bottom: 0.05em solid rgb(216, 216, 216);    
+}
+.nombreYNumero{    
+    margin-top: 0.5em;
+    margin-bottom: 0.9em;
+}
+.nombre{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.15em;   
+}
+.numeroTweets{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: rgb(177, 177, 177)
+}
+.seguir{
+    display: flex;
+    justify-content: right;
+    align-items: flex-start;
+    margin-top: 0.6em;
+}
+.botonSeguir{    
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    font-size: 1em;
+    margin-right: 0.5em;
+    border-radius: 1.2em;
+    padding: 0.6em;
+    padding-left: 1.15em;
+    padding-right: 1.15em;
+}
+.primeraColumnaCentral{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 0.65em;
+    margin-right: 0.5em;     
+}
+.primeraFilaCentral{    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(104, 104, 104);
+    font-size: 1em;
+    margin-top: 0.5em;    
+}
+.segundaFilaCentral{
+    display: flex;
+}
+.segundaFilaCentralUno{
+    display: flex;
+    align-items: center;    
+}
+.TeslaNuebFecha{
+    width: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    margin-top: 0.15em;
+    margin-bottom: 0.15em;
+}
+.segundaFilaCentralDos{
+    width: 10%;
+    text-align: right;    
+}
+.iconoNubeEnImagen{
+    width: 1em;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+}
+.arrobaTesla{
+    color: rgb(104, 104, 104);
+    font-weight: normal;
+}
+.iconoPuntos{
+    padding-right: 1em;
+}
+.texto{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+.imagen{
+    padding-right: 1em;
+}
+.imagenTrabajadores{
+    width: 100%;
+    border-radius: 1em;    
+}
+.filaIconosDatos{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    margin-top: 0.4em;
+}
+.mensaje, .repetir, .amor, .compartir{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.compartir{
+    justify-content: left;
+    margin-left: 2em;
+}
+.mensaje > img, .repetir > img, .amor > img, .compartir > img{
+    margin-right:  0.9em;
+}
+.filaIconosDatos > div{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(104, 104, 104);
+    font-size: 1em;    
+    width: 25%;
+}
+.filaIconosDatos > img{
+    margin: 1em;
+}
